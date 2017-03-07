@@ -11,10 +11,24 @@ nav {
 	height: 40px;
 	width: 100%;
 } 
+
 .logo {
 	padding-top: 10px;
 	padding-left: 10px;
 }
+.links {
+	/*display: inline-block;*/
+	width: 50%;
+}
+
+
+/*
+
+ul li {
+	display: inline-block;
+	width: 50%;
+}
+
 .maincontainer {
 	padding-left: 75px;
 	padding-top: 100px;
@@ -37,12 +51,17 @@ nav ul {
 	position: relative;
 	right: 10px;
 	top: -45px;
+	/*ul position: relative
 }
-
-div li {
+nav li {
+	/*display: inline-block;
+	width: 50%;
+}
+*/
+/*div li {
 	list-style-type: none;
-}
+}*/
 
 li:hover {
 	text-decoration: underline;
-}
+/*}
