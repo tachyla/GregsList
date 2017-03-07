@@ -1,0 +1,17 @@
+body {
+	margin: 0 ;
+
+}
+
+
+
+.container {
+	background-color: lightgrey;
+	height: 50px;
+	width: 100%;
+} 
+
+ul {
+	text-align: right;
+
+}
