@@ -29,6 +29,9 @@ nav {
 	color: purple;
 	text-decoration: none; 
 }
+ a:hover {
+ 	text-decoration: underline;
+ }
 .maincontainer {
 	padding-left: 75px;
 	padding-top: 100px;
@@ -48,9 +51,12 @@ nav {
 	position: relative;
 	display: inline-block;
 	width: 60%;
+	height: 20px;
 }
 
 .searchcontainer-2 {
+	height: 20px;
+	width: 25px;
 	/*left: 0px;
 	bottom: 0px;*/
 }
@@ -75,22 +81,15 @@ nav {
 
 
 
-/*
+
 nav ul {
 	text-align: right;
 	position: relative;
 	right: 10px;
 	top: -45px;
-	/*ul position: relative
+	ul position: relative
 }
 nav li {
-	/*display: inline-block;
+	display: inline-block;
 	width: 50%;
-}
-*/
-/*div li {
-	list-style-type: none;
-}*/
-
-
-/*}
+	}
