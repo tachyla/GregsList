@@ -15,12 +15,14 @@ nav {
 .logo {
 	padding-top: 10px;
 	padding-left: 10px;
+	position: relative;
+	display: inline-block;
 }
 .links {
-	/*display: inline-block;*/
-	width: 50%;
+	float: right;
+	margin-left: 1170px;
+	/*used this random 1170px to move the links as far right as possible*/
 }
-
 
 /*
 
