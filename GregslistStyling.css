@@ -20,34 +20,62 @@ nav {
 }
 .links {
 	float: right;
-	margin-left: 1170px;
-	/*used this random 1170px to move the links as far right as possible*/
+	margin-left: 1160px;
+	/*used this random 1170px to move the links as far right as possible
+	Question: POST & ACCOUNT dissappear on my smaller screen*/
 }
 
-/*
-
-ul li {
-	display: inline-block;
-	width: 50%;
+ a:link {
+	color: purple;
+	text-decoration: none; 
 }
-
 .maincontainer {
 	padding-left: 75px;
 	padding-top: 100px;
+	font-size: 0;
+	/*This sets my div side by side but font-0 makes font dissappear*/
+
 }
+/* Search bar setup */
+
 .searchcontainer {
 	height: 20px;
-	max-width: 50%;
+	width: 50%;
+	border: 1px solid black;
+	position: relative;
 }	
 .searchcontainer-1 {
 	position: relative;
+	display: inline-block;
+	width: 60%;
 }
 
 .searchcontainer-2 {
-	left: 135px;
-	bottom: 23px;
+	/*left: 0px;
+	bottom: 0px;*/
 }
 
+/* Prevous, Current,  Next Controls */
+.inner {
+	margin-top: 50px;
+	width: 10%;
+	height: 30px;
+	display: inline-block;
+
+}
+
+.inner-1 {
+}
+.inner-2 {
+	font-size: 7px;
+}
+.inner-3 {
+}
+
+
+
+
+/*
 nav ul {
 	text-align: right;
 	position: relative;
@@ -64,6 +92,5 @@ nav li {
 	list-style-type: none;
 }*/
 
-li:hover {
-	text-decoration: underline;
+
 /*}
