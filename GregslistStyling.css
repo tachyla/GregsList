@@ -1,9 +1,12 @@
 body {
 	margin: 0 auto;
 }
+nav {
+	position: fixed;
+}
 
 
-.container {
+.navcontainer {
 	background-color: lightgrey;
 	height: 40px;
 	width: 100%;
@@ -11,6 +14,22 @@ body {
 .logo {
 	padding-top: 10px;
 	padding-left: 10px;
+}
+.maincontainer {
+	padding-left: 75px;
+	padding-top: 100px;
+}
+.searchcontainer {
+	height: 20px;
+	max-width: 50%;
+}	
+.searchcontainer-1 {
+	position: relative;
+}
+
+.searchcontainer-2 {
+	left: 135px;
+	bottom: 23px;
 }
 
 nav ul {
@@ -20,6 +39,10 @@ nav ul {
 	top: -45px;
 }
 
-nav li {
+div li {
 	list-style-type: none;
+}
+
+li:hover {
+	text-decoration: underline;
 }
