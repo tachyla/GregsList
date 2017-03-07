@@ -5,26 +5,19 @@ body {
 
 .container {
 	background-color: lightgrey;
-	height: 50px;
+	height: 40px;
 	width: 100%;
-	font-family: 
 } 
 .logo {
-	padding-top: 10px
-
+	padding-top: 10px;
+	padding-left: 10px;
 }
-
-/*.links {
-	display: inline-block;
-}*/
 
 nav ul {
 	text-align: right;
 	position: relative;
 	right: 10px;
-	top: -40px;
-	
-
+	top: -45px;
 }
 
 nav li {
