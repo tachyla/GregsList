@@ -38,7 +38,6 @@ main {
 	right: 50px;
  }
 
-
 a:hover {
 	text-decoration: underline;
 }
@@ -46,20 +45,21 @@ a {
 	color: purple;
 	text-decoration: none;
 } 
+
 .searchcontainer {
 	position: relative;
 	height: 200px;
 	width: 50%;
 	border: 1px dotted black;
 }
+
+}
 /*.searchcontainer-2 {
 	display: inline-block;
 	height: 20px;
 	width: 25px;
 	/*left: 0px;
-	bottom: 0px;*/
-}
-
+	bottom: 0px;
 .searchcontainer-1 {
 	position: relative;
 	display: inline-block;
