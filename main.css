@@ -1,6 +1,6 @@
 body {
 	margin: 0 auto;
-}
+ }
 
 nav {
 	position: fixed;
@@ -16,19 +16,32 @@ main {
 	width: 100%;
 	padding-top: 10px;
 	padding-left: 10px;
-	padding-right: 10px;
 	position: relative;
-}
+ }
 
 .li-one {
 	position: relative;
  }
 
-.li-two, .li-three {
-	float: right;
+.li_link2 {
+	position: absolute;
 	display: inline-block;
-	width: 8%;
-	bottom: 100px;
+	width: 10%;
+	right: 10px;
+	top: 20px;
+  }
+.li_link3 {
+	position: absolute;
+	display: inline-block;
+	top: 20px;
+	right: 100px;
+ }
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
 }
 
 
