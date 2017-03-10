@@ -5,62 +5,43 @@ body {
 nav {
 	position: fixed;
 	width: 100%;
+
+}
+main {
+	padding-left: 80px;
+	padding-top: 100px;
 }
 
+.navcontainer {
+	height: 80px;
+	width: 100%;
+	background: light grey;
+	border: 1px solid black;
+}
+.navcontainer ul li{
+	display: inline-block;
+	position: relative;
+ }
+ .navcontainer ul li:nth-child(2) {
+ 	position: absolute;
+ 	right: 80px; 
+ }
+ .navcontainer ul li:last-child {
+ 	position: absolute;
+ 	right: 120px;
+ }
+/*.searchcontainer {
+	position: relative;
+	height: 200px;
+	width: 50%;
+	border: 1px dotted black;
+}
 .navcontainer ul {
 	position: absolute;
 	width: 100%;
 	padding-left: 20px;
 }
 
-.navcontainer ul li {
-	display: inline-block;
-	position: relative;
-}
-
-.navcontainer ul li:nth-child(2) {
-	left: 1300px;
-	top: 0px;
- }
-
- .navcontainer ul li:last-child {
-	left: 1350px;
-	top: 0px;
-	margin-left: -10px;
-}
-
-
-main {
-	padding-left: 80px;
-	padding-top: 100px;
-}
-
-/*.navcontainer {
-	background-color: lightgrey;
-	height: 50px;
-	width: 100%;
-	padding-top: 10px;
-	padding-left: 10px;
-}*/
-
-
-
-a:hover {
-	text-decoration: underline;
-}
-a {
-	color: purple;
-	text-decoration: none;
-} 
-
-.searchcontainer {
-	position: relative;
-	height: 200px;
-	width: 50%;
-	border: 1px dotted black;
-}
-
-}
 /*.searchcontainer-2 {
 	display: inline-block;
 	height: 20px;
