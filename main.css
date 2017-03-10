@@ -26,12 +26,16 @@ main {
  }
  .navcontainer ul li:nth-child(2) {
  	position: absolute;
- 	right: 80px; 
+ 	right: 70px; 
 }
  .navcontainer ul li:last-child {
  	position: absolute;
  	right: 120px;
- }
+}
+.navcontainer ul li a {
+	text-decoration: none;
+	color: purple;
+}
 /*.searchcontainer {
 	position: relative;
 	height: 200px;
