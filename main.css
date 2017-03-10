@@ -36,8 +36,7 @@ main {
 	color: purple;
 }
 .searchcontainer {
-	/*position: relative;*/
-	height: 100px;
+	height: 70px;
 	width: 60%;
 }
 
@@ -47,17 +46,20 @@ main {
 	margin-bottom: 10px;
 	font-weight: 600;
 }
-.searchcontainer form {
-}	
-.searchcontainer form input {
-
+.searchcontainer form input:nth-child(2) {
+	height: 25px;
+	width: 80%;
+	margin-bottom: 0;
 }
-
-
-
-
- /* Prevous, Current,  Next Controls 
-    ================================== */
-
+.searchcontainer form input:last-child {
+	vertical-align: bottom;
+}
+.listing li a {
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-bottom: 5px;
+	text-decoration: none;
+	color: blue;
+}
 
 
