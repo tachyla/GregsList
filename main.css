@@ -50,10 +50,18 @@ main {
 	height: 25px;
 	width: 80%;
 	margin-bottom: 0;
+	font-size: 16px;
+	padding-left: 5px;
 }
 .searchcontainer form input:last-child {
 	vertical-align: bottom;
 }
+.listing ul {
+	/*remove bullets from .listing li */
+	list-style: none;
+	color: #BBB4B4;
+}
+
 .listing li a {
 	margin-left: 10px;
 	margin-right: 20px;
