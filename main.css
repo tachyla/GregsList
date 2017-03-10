@@ -39,7 +39,18 @@ main {
 	/*position: relative;*/
 	height: 100px;
 	width: 60%;
-	border: 1px dotted black;
+}
+
+.searchcontainer form label {
+	position: relative;
+	display: block;
+	margin-bottom: 10px;
+	font-weight: 600;
+}
+.searchcontainer form {
+}	
+.searchcontainer form input {
+
 }
 
 
