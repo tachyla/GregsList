@@ -13,19 +13,21 @@ main {
 }
 
 .navcontainer {
-	height: 80px;
+	padding-top: 5px;
+	height: 60px;
 	width: 100%;
-	background: light grey;
-	border: 1px solid black;
-}
+	background: lightgray;
+ }
 .navcontainer ul li{
 	display: inline-block;
 	position: relative;
+	font-weight: bold;
+	font-size: 18px;
  }
  .navcontainer ul li:nth-child(2) {
  	position: absolute;
  	right: 80px; 
- }
+}
  .navcontainer ul li:last-child {
  	position: absolute;
  	right: 120px;
